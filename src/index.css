@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 768px;
+    background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.block {
+    margin: 189px 562px 279px 578px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.counter h1 {
+    margin: 62px 66px 62px 65px;
+    position: absolute;
+    width: 169px;
+    height: 176px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 176px;
+    font-family: Roboto;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.counter h1 {
+    font-size: 150px;
+    text-align: center;
+}
+
+.btnPlus {
+    margin: 523px 783px 180px 592px;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #089C20 url(icons/plus.svg) no-repeat;
+    border-radius: 4px;
+}
+
+.btnMinus {
+    margin: 523px 680px 180px 695px;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #E7AA10 url(icons/minus.svg) no-repeat;
+    border-radius: 4px;
+}
+
+.btnReset {
+    margin: 523px 576px 180px 799px;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #CF1C1C url("https://img.icons8.com/ios-filled/50/000000/available-updates.png");
+    background-size: contain;
+    border-radius: 4px;
+}
